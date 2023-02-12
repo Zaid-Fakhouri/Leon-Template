@@ -384,9 +384,10 @@ html {
 }
 
 @media(max-width: 767px) {
-    .about .about-content {
+    .about .about-content img {
         display: none;
     }
+}
 
 @media (max-width: 991px) {
     .about .about-content .image {
