@@ -377,11 +377,16 @@ html {
 
     }
 }
-.about .about-content .image {
+.about .about-content img {
     position: relative;
     width: 250px;
     height: 375px;
 }
+
+@media(max-width: 767px) {
+    .about .about-content {
+        display: none;
+    }
 
 @media (max-width: 991px) {
     .about .about-content .image {
