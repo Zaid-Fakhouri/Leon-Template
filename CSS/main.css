@@ -378,13 +378,13 @@ html {
     }
 }
 .about .about-content img {
-    position: relative;
+    
     width: 250px;
     height: 375px;
 }
 
 @media(max-width: 767px) {
-    .about .about-content img {
+    .about .about-content .image {
         display: none;
     }
 }
