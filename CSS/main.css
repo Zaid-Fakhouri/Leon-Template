@@ -281,7 +281,11 @@ html {
     font-weight: 300;
     line-height: 1.8;
 }
-
+@media (max-width: 767px) {
+    .services .services-content .image {
+        display: none;
+    }
+}
 /* .services .services-content .image {
     text-align: center;
     position: relative;
